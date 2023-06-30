@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #0C1117;
+}
+
+.border-gradient{
+    background: linear-gradient(#606E7E, #0C1117 77.08%);
+}
+
+.border-top-left {
+    border-top-left-radius: 70px 70px;
+}
+
+@layer components {
+
+.section {
+    @apply flex flex-1 flex-col mt-16 items-center justify-center ;
+}
+
+}
