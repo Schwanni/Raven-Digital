@@ -15,10 +15,29 @@ body {
     border-top-left-radius: 70px 70px;
 }
 
+.h2Heading {
+    color: #FFF;
+    font-size: 48px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
 @layer components {
 
 .section {
-    @apply flex flex-1 flex-col mt-16 items-center justify-center ;
+    @apply  mt-16 ;
 }
+
+.flexCenter{
+    @apply flex flex-1 flex-col items-center justify-center;
+}
+
+.flexStart{
+    @apply flex flex-1 flex-col items-start justify-center;
+}
+
+
 
 }

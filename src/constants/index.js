@@ -1,6 +1,7 @@
 
 
 
+
 export const NavigationLinks = [
     {
     id: 1,
@@ -118,4 +119,53 @@ export const Cards = [
         imgSrc: "/src/images/paint-brush-line.svg",
         imgAlt: "paint-brush",
     },
-]
+];
+
+export const Works = [
+    {
+        id: 1,
+        imgSrc: "/src/images/L0nipfx-Ry4.png",
+        imgAlt: "office_picture",
+        w: "w-[301px]",
+        h: "h-[367px]",
+    },
+
+    {
+        id:2,
+        imgSrc: "/src/images/UVfvFrp4x4E.png",
+        imgAlt: "netflix_logo",
+        w: "w-[734px]",
+        h: "h-[367px]",
+    },
+
+    {
+        id:3,
+        imgSrc: "/src/images/sDwhXKJijyE.png",
+        imgAlt: "smartphone",
+        w: "w-[363px]",
+        h: "h-[367px]",
+    },
+
+    {
+        id:4,
+        h2: "NOT IMPRESSED?",
+        p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        buttonTitle: "See more",
+    },
+
+    {
+        id:5,
+        imgSrc: "/src/images/WS7tgu261f0.png",
+        imgAlt: "tablett",
+        w: "w-[298px]",
+        h: "h-[437px]",
+    },
+
+    {
+        id:6,
+        imgSrc: "/src/images/NIo8Fd-RngE.png",
+        imgAlt: "Laptop",
+        w: "w-[654px]",
+        h: "h-[437px]",
+    },
+];
