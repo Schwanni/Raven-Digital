@@ -1,5 +1,5 @@
 
-import {Navbar, About, Services, Portfolio, Testimonials, News, Contacts, Elements} from "./components/index"
+import {Navbar, About, Services, Portfolio, Testimonials, News, Contacts, Elements, Stats} from "./components/index"
 
 function App() {
  
@@ -9,6 +9,7 @@ function App() {
       <About />
       <Services />
       <Portfolio />
+      <Stats />
       <Testimonials />
       <News />
       <Contacts />

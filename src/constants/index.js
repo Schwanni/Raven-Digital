@@ -169,3 +169,36 @@ export const Works = [
         h: "h-[437px]",
     },
 ];
+
+
+export const StatNumbers = [
+    {
+        id:1,
+        number: 9854,
+        text: "PROJECTS COMPLETED",
+    },
+
+    {
+        id:2,
+        number: 840,
+        text: "CLIENTS",
+    },
+
+    {
+        id:3,
+        number: 321,
+        text: "ACTIVE CLIENTS",
+    },
+
+    {
+        id:4,
+        number: 5410,
+        text: "CUPS OF COFEE",
+    },
+
+    {
+        id:5,
+        number: 9854,
+        text: "PROJECTS COMPLETED",
+    },
+];
