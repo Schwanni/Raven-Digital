@@ -202,3 +202,32 @@ export const StatNumbers = [
         text: "PROJECTS COMPLETED",
     },
 ];
+
+export const Examples = [
+    {
+        id:1,
+        name:"Jane Doe",
+        job: "Company / CEO",
+        text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu fames sit lectus. Scelerisque id bibendum velit cras.",
+        text2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas.",
+        imgSrc: "/src/images/testimonials/plsF6obTgms.png",
+    },
+
+    {
+        id:2,
+        name:"Albert Dera",
+        job: "Company / CEO",
+        text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu fames sit lectus. Scelerisque id bibendum velit cras.",
+        text2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas.",
+        imgSrc: "/src/images/testimonials/albert-dera-ILip77SbmOE-unsplash.jpg",
+    },
+
+    {
+        id:3,
+        name:"Simone Koch",
+        job: "Company / CEO",
+        text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu fames sit lectus. Scelerisque id bibendum velit cras.",
+        text2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas.",
+        imgSrc: "/src/images/testimonials/stefan-stefancik-QXevDflbl8A-unsplash.jpg",
+    },
+];
