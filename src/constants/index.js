@@ -231,3 +231,83 @@ export const Examples = [
         imgSrc: "/src/images/testimonials/stefan-stefancik-QXevDflbl8A-unsplash.jpg",
     },
 ];
+
+export const Members = [
+    {
+        id:1,
+        name:"Jane Doe",
+        job: "Company / CEO",
+        text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.",
+        
+        facebookLink: "#",
+        facebookImg: "/src/images/socialIcons/icons8-facebook.svg",
+            
+           
+        twitterLink: "#",
+        twitterimg: "/src/images/socialIcons/icons8-twitter.svg",
+           
+            
+        instagramLink: "#",
+        instagramImg: "/src/images/socialIcons/icons8-instagram.svg",
+           
+        
+        imgSrc: "/src/images/testimonials/plsF6obTgms.png",
+    },
+    {
+        id:2,
+        name:"Simone Koch",
+        job: "Company / CEO",
+        text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.",
+
+        facebookLink: "#",
+        facebookImg: "/src/images/socialIcons/icons8-facebook.svg",
+            
+           
+        twitterLink: "#",
+        twitterimg: "/src/images/socialIcons/icons8-twitter.svg",
+           
+            
+        instagramLink: "#",
+        instagramImg: "/src/images/socialIcons/icons8-instagram.svg",
+
+        imgSrc: "/src/images/testimonials/stefan-stefancik-QXevDflbl8A-unsplash.jpg",
+    },
+    {
+        id:3,
+        name:"Albert Dera",
+        job: "Company / CEO",
+        text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.",
+        
+        facebookLink: "#",
+        facebookImg: "/src/images/socialIcons/icons8-facebook.svg",
+            
+           
+        twitterLink: "#",
+        twitterimg: "/src/images/socialIcons/icons8-twitter.svg",
+           
+            
+        instagramLink: "#",
+        instagramImg: "/src/images/socialIcons/icons8-instagram.svg",
+
+        imgSrc: "/src/images/testimonials/albert-dera-ILip77SbmOE-unsplash.jpg",
+    },
+    {
+        id:4,
+        name:"Jane Doe",
+        job: "Company / CEO",
+        text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.",
+        
+        facebookLink: "#",
+        facebookImg: "/src/images/socialIcons/icons8-facebook.svg",
+            
+           
+        twitterLink: "#",
+        twitterimg: "/src/images/socialIcons/icons8-twitter.svg",
+           
+            
+        instagramLink: "#",
+        instagramImg: "/src/images/socialIcons/icons8-instagram.svg",
+        
+        imgSrc: "/src/images/testimonials/plsF6obTgms.png",
+    },
+];
