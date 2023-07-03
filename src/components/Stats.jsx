@@ -2,7 +2,7 @@ import { StatNumbers } from "../constants";
 
 const Stats = () => {
   return (
-    <section id="stats" className='bg-[#2B61F7] my-16 w-1/2 mx-auto md:w-full'>
+    <section id="stats" className='bg-[#2B61F7] my-16 w-full mx-auto'>
       <div className="flex flex-col md:flex-row md:justify-center xxl:justify-between xxl:mx-48">
         {StatNumbers.map((stat, index) => (
           <div key={stat.id} className={`flex flex-col justify-center items-center mx-4 md:px-2 lg:px-6 xl:px-12 my-4 md:my-8 ${index !== StatNumbers.length -1 ? "border-b-2 pb-4 md:border-r-2 md:border-b-0" : ""} `}>

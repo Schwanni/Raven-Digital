@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 
+
 body {
-    background-color: #0C1117;
+    background-color: #0C1117;   
 }
 
 .border-gradient{
@@ -52,4 +53,18 @@ body {
     border: 3px solid #003ADB;
     border-radius: 50%;
     
+}
+
+.FlipCard {
+    transition: 250ms;
+    transform-style: preserve-3d;
+    transform: rotateY(var(--rotate-y, 0));
+}
+
+.FlipCard.flip {
+    --rotate-y: 180deg;
+}
+
+.FlipCardBack {
+    transform: rotateY(180deg);
 }
