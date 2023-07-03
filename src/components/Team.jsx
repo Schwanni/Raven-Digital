@@ -14,7 +14,7 @@ const Team = () => {
    
 
   return (
-    <section id="team" className='section xl:flexStart ml-8 sm:ml-12 md:ml-32 xl:ml-52'>
+    <section id="team" className='section ml-8 sm:ml-12 md:ml-32'>
        <div className="flex flex-col">
             <h2 className='h2Heading mb-20'>Our Team</h2>
             <div className="flex flex-wrap gap-4 md:gap-8 lg:gap-20">
