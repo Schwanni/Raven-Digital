@@ -5,12 +5,13 @@ import { useState } from "react";
 
 
 const Testimonials = () => {
+  
 
   return (
     <section id="testimonials" className='section xl:flexCenter sm:max-w-sm md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] lg:mx-14 overflow-hidden'>
       
       <div className="mx-4  xxl:mx-52 xxl:my-16">
-        <Carousel renderCenterRightControls={false} renderCenterLeftControls={false}>
+        <Carousel autoplay={true} autoplayInterval={5000} wrapAround={true} renderCenterRightControls={false} renderCenterLeftControls={false} >
           {Examples.map((example, exampleIndex) => (
             
             <div key={example.id} className="">

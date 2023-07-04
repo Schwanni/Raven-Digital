@@ -4,14 +4,7 @@ import FlipCardList from "./FlipCardList";
 
 
 const Team = () => {
-
- 
-  
-
-    const [FlipCards, setFlipCard] = useState(Members)
-
-    
-   
+    const [FlipCards, setFlipCard] = useState(Members);
 
   return (
     <section id="team" className='section ml-8 sm:ml-12 md:ml-32'>

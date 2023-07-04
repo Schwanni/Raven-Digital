@@ -311,3 +311,28 @@ export const Members = [
         imgSrc: "/src/images/testimonials/plsF6obTgms.png",
     },
 ];
+
+export const Blog = [
+    {
+        id:1,
+        released: true,
+        date: "04.07.2023",
+        imgSrc: "/src/images/blogimg/g-IR3UM2v7M.png",
+        imgAlt: "Tänzerin",
+        genre: "Techno",
+        title: "Lorem ipsum",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit.",
+        link: "",
+    },
+    {
+        id:2,
+        released: false,
+        date: "04.07.2023",
+        imgSrc: "/src/images/blogimg/g-IR3UM2v7M.png",
+        imgAlt: "Tänzerin",
+        genre: "Techno",
+        title: "Lorem ipsum",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit.",
+        link: "",
+    }
+];
