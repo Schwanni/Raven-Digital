@@ -1,9 +1,10 @@
-
 import {Navbar, About, Services, Portfolio, Testimonials, News, Contacts, Elements, Stats, Team} from "./components/index"
+
 
 function App() {
  
   return (
+   
     <div>
       <Navbar />
       <About />
@@ -16,6 +17,7 @@ function App() {
       <Contacts />
       <Elements />
     </div>
+  
   )
 }
 

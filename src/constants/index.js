@@ -43,8 +43,7 @@ export const NavigationLinks = [
         linkname: "Elements",
         link: "#elements"
     },
-    ];
-
+];
 
 export const SocialLinks = [
         {
@@ -169,7 +168,6 @@ export const Works = [
         h: "h-[437px]",
     },
 ];
-
 
 export const StatNumbers = [
     {
@@ -316,9 +314,9 @@ export const Blog = [
     {
         id:1,
         released: true,
-        date: "04.07.2023",
-        imgSrc: "/src/images/blogimg/g-IR3UM2v7M.png",
-        imgAlt: "Tänzerin",
+        date: "2023.04.17",
+        imgSrc: "/src/images/blogimg/sDwhXKJijyE(1).png",
+        imgAlt: "Handy",
         genre: "Techno",
         title: "Lorem ipsum",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit.",
@@ -326,13 +324,46 @@ export const Blog = [
     },
     {
         id:2,
-        released: false,
-        date: "04.07.2023",
+        released: true,
+        date: "2023.03.02",
         imgSrc: "/src/images/blogimg/g-IR3UM2v7M.png",
+        imgAlt: "Tänzer",
+        genre: "Techno",
+        title: "Lorem ipsum",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit.",
+        link: "",
+    },
+    {
+        id:3,
+        released: true,
+        date: "2023.05.18",
+        imgSrc: "/src/images/blogimg/3MAmj1ZKSZA.png",
         imgAlt: "Tänzerin",
         genre: "Techno",
         title: "Lorem ipsum",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit.",
         link: "",
-    }
+    },
+    {
+        id:4,
+        released: false,
+        date: "2023.05.14",
+        imgSrc: "/src/images/blogimg/3MAmj1ZKSZA.png",
+        imgAlt: "Tänzerin",
+        genre: "Techno",
+        title: "Lorem ipsum",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit.",
+        link: "",
+    },
+    {
+        id:5,
+        released: false,
+        date: "2023.05.16",
+        imgSrc: "/src/images/blogimg/3MAmj1ZKSZA.png",
+        imgAlt: "Tänzerin",
+        genre: "Techno",
+        title: "Lorem ipsum",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit.",
+        link: "",
+    },
 ];

@@ -1,15 +1,20 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
+
+
 
 const BlogCard = ({blog}) => {
     const released = useState(blog.released);
-    
+    const date = useState(blog.date);
+    const newDate = date[0].split('.');
+    const newDateString = newDate[2] + "/" + newDate[1] + "/" + newDate[0];
 
   return (
     <>
-    {released[0]? (
+    {released[0] ? (
         <div className='w-[460px] h-[714px] bg-[#11161C] rounded-tr-[90px] my-20 relative group'>
             
-    <a href={blog.link}>
+       <Link to={`/blog?${blog.id}`}>
        <div className='flex flex-col justify-center items-center '>
             <div className='w-[415px] h-[415px] relative my-6 z-[3]'>
                 <img src={blog.imgSrc} alt={blog.imgAlt} className='rounded-[4px] rounded-tr-[90px] z-[3]' />
@@ -17,17 +22,19 @@ const BlogCard = ({blog}) => {
             </div>
             <div className='flex flex-col w-full px-8'>
                 <div className='flex justify-between w-full'>
-                    <h4 className='text-[#727272] group-hover:text-[#89A8FF] text-lg font-medium z-[2]'>{blog.date}</h4>
+                    <h4 className='text-[#727272] group-hover:text-[#89A8FF] text-lg font-medium z-[2]'>{newDateString}</h4>
                     <h4 className='text-[#727272] group-hover:text-[#89A8FF] text-lg font-medium z-[2]'>{blog.id}</h4>
                 </div>
                 <h3 className='text-[#D0D0D0]  text-2xl font-medium my-2 z-[2]'>{blog.title}</h3>
                 <p className='text-[#9C9898] group-hover:text-[#D0D0D0] text-lg font-light z-[2]'>{blog.text}</p>
             </div>
        </div> 
-       <div className='w-[460px] h-2 group-hover:h-[450px] z-0 bg-[#003ADB] absolute bottom-0'></div>
-    </a>
+       <div className='w-full h-2 group-hover:h-[450px] duration-300 z-0 bg-[#003ADB] absolute bottom-0'></div>
+       </Link>
     </div>
     ) : ""}
+
+  
     </>
   )
 }
