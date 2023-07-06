@@ -1,3 +1,6 @@
+import { computer, terminal, artboard, diamond, chart, brush, office_picture, netflix_logo, smartphone,tablett, Laptop, Jane_Doe, Albert_Dera, Fake_Person, facebook, twitter, instagram, tänzer, tänzerin, microsoft, nike, amazon, mango, phone, message, adress,  } from "../images";
+
+
 export const NavigationLinks = [
     {
     id: 1,
@@ -66,7 +69,7 @@ export const Cards = [
         text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         link: "#",
         linkTitle: "Contact us",
-        imgSrc: `/src/images/computer.svg`,
+        imgSrc: computer,
         imgAlt: "Computer",
     },
     {
@@ -75,7 +78,7 @@ export const Cards = [
         text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         link: "#",
         linkTitle: "Contact us",
-        imgSrc: "/src/images/terminal-window-line.svg",
+        imgSrc: terminal,
         imgAlt: "terminal",
     },
     {
@@ -84,7 +87,7 @@ export const Cards = [
         text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         link: "#",
         linkTitle: "Contact us",
-        imgSrc: "/src/images/artboard-2-line.svg",
+        imgSrc: artboard,
         imgAlt: "artboard",
     },
     {
@@ -93,7 +96,7 @@ export const Cards = [
         text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         link: "#",
         linkTitle: "Contact us",
-        imgSrc: "/src/images/vip-diamond-line.svg",
+        imgSrc: diamond,
         imgAlt: "vip-diamond",
     },
     {
@@ -102,7 +105,7 @@ export const Cards = [
         text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         link: "#",
         linkTitle: "Contact us",
-        imgSrc: "/src/images/bar-chart-2-line.svg",
+        imgSrc: chart,
         imgAlt: "chart",
     },
     {
@@ -111,7 +114,7 @@ export const Cards = [
         text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         link: "#",
         linkTitle: "Contact us",
-        imgSrc: "/src/images/paint-brush-line.svg",
+        imgSrc: brush,
         imgAlt: "paint-brush",
     },
 ];
@@ -119,7 +122,7 @@ export const Cards = [
 export const Works = [
     {
         id: 1,
-        imgSrc: "/src/images/L0nipfx-Ry4.png",
+        imgSrc: office_picture,
         imgAlt: "office_picture",
         w: "w-[301px]",
         h: "h-[367px]",
@@ -127,7 +130,7 @@ export const Works = [
 
     {
         id:2,
-        imgSrc: "/src/images/UVfvFrp4x4E.png",
+        imgSrc: netflix_logo,
         imgAlt: "netflix_logo",
         w: "w-[734px]",
         h: "h-[367px]",
@@ -135,7 +138,7 @@ export const Works = [
 
     {
         id:3,
-        imgSrc: "/src/images/sDwhXKJijyE.png",
+        imgSrc: smartphone,
         imgAlt: "smartphone",
         w: "w-[363px]",
         h: "h-[367px]",
@@ -150,7 +153,7 @@ export const Works = [
 
     {
         id:5,
-        imgSrc: "/src/images/WS7tgu261f0.png",
+        imgSrc: tablett,
         imgAlt: "tablett",
         w: "w-[298px]",
         h: "h-[437px]",
@@ -158,7 +161,7 @@ export const Works = [
 
     {
         id:6,
-        imgSrc: "/src/images/NIo8Fd-RngE.png",
+        imgSrc: Laptop,
         imgAlt: "Laptop",
         w: "w-[654px]",
         h: "h-[437px]",
@@ -204,7 +207,7 @@ export const Examples = [
         job: "Company / CEO",
         text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu fames sit lectus. Scelerisque id bibendum velit cras.",
         text2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas.",
-        imgSrc: "/src/images/testimonials/plsF6obTgms.png",
+        imgSrc: Jane_Doe,
     },
 
     {
@@ -213,16 +216,16 @@ export const Examples = [
         job: "Company / CEO",
         text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu fames sit lectus. Scelerisque id bibendum velit cras.",
         text2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas.",
-        imgSrc: "/src/images/testimonials/albert-dera-ILip77SbmOE-unsplash.jpg",
+        imgSrc: Albert_Dera,
     },
 
     {
         id:3,
-        name:"Simone Koch",
+        name:"Fake Person",
         job: "Company / CEO",
         text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu fames sit lectus. Scelerisque id bibendum velit cras.",
         text2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas.",
-        imgSrc: "/src/images/testimonials/stefan-stefancik-QXevDflbl8A-unsplash.jpg",
+        imgSrc: Fake_Person,
     },
 ];
 
@@ -234,18 +237,18 @@ export const Members = [
         text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.",
         
         facebookLink: "#",
-        facebookImg: "/src/images/socialIcons/icons8-facebook.svg",
+        facebookImg: facebook,
             
            
         twitterLink: "#",
-        twitterimg: "/src/images/socialIcons/icons8-twitter.svg",
+        twitterimg: twitter,
            
             
         instagramLink: "#",
-        instagramImg: "/src/images/socialIcons/icons8-instagram.svg",
+        instagramImg: instagram,
            
         
-        imgSrc: "/src/images/testimonials/plsF6obTgms.png",
+        imgSrc: Jane_Doe,
     },
     {
         id:2,
@@ -254,17 +257,17 @@ export const Members = [
         text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.",
 
         facebookLink: "#",
-        facebookImg: "/src/images/socialIcons/icons8-facebook.svg",
+        facebookImg: facebook,
             
            
         twitterLink: "#",
-        twitterimg: "/src/images/socialIcons/icons8-twitter.svg",
+        twitterimg: twitter,
            
             
         instagramLink: "#",
-        instagramImg: "/src/images/socialIcons/icons8-instagram.svg",
+        instagramImg: instagram,
 
-        imgSrc: "/src/images/testimonials/stefan-stefancik-QXevDflbl8A-unsplash.jpg",
+        imgSrc: Fake_Person,
     },
     {
         id:3,
@@ -273,17 +276,17 @@ export const Members = [
         text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.",
         
         facebookLink: "#",
-        facebookImg: "/src/images/socialIcons/icons8-facebook.svg",
+        facebookImg: facebook,
             
            
         twitterLink: "#",
-        twitterimg: "/src/images/socialIcons/icons8-twitter.svg",
+        twitterimg: twitter,
            
             
         instagramLink: "#",
-        instagramImg: "/src/images/socialIcons/icons8-instagram.svg",
+        instagramImg: instagram,
 
-        imgSrc: "/src/images/testimonials/albert-dera-ILip77SbmOE-unsplash.jpg",
+        imgSrc: Albert_Dera,
     },
     {
         id:4,
@@ -292,17 +295,17 @@ export const Members = [
         text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.",
         
         facebookLink: "#",
-        facebookImg: "/src/images/socialIcons/icons8-facebook.svg",
+        facebookImg: facebook,
             
            
         twitterLink: "#",
-        twitterimg: "/src/images/socialIcons/icons8-twitter.svg",
+        twitterimg: twitter,
            
             
         instagramLink: "#",
-        instagramImg: "/src/images/socialIcons/icons8-instagram.svg",
+        instagramImg: instagram,
         
-        imgSrc: "/src/images/testimonials/plsF6obTgms.png",
+        imgSrc: Jane_Doe,
     },
 ];
 
@@ -311,7 +314,7 @@ export const Blog = [
         id:1,
         released: true,
         date: "2023.04.17",
-        imgSrc: "/src/images/blogimg/sDwhXKJijyE(1).png",
+        imgSrc: smartphone,
         imgAlt: "Handy",
         genre: "Smartphone",
         title: "Lorem ipsum",
@@ -326,7 +329,7 @@ export const Blog = [
         id:2,
         released: true,
         date: "2023.03.02",
-        imgSrc: "/src/images/blogimg/g-IR3UM2v7M.png",
+        imgSrc: tänzer,
         imgAlt: "Tänzer",
         genre: "Techno",
         title: "Lorem ipsum",
@@ -341,7 +344,7 @@ export const Blog = [
         id:3,
         released: true,
         date: "2023.05.18",
-        imgSrc: "/src/images/blogimg/3MAmj1ZKSZA.png",
+        imgSrc: tänzerin,
         imgAlt: "Tänzerin",
         genre: "Techno",
         title: "Lorem ipsum",
@@ -356,7 +359,7 @@ export const Blog = [
         id:4,
         released: false,
         date: "2023.05.14",
-        imgSrc: "/src/images/blogimg/3MAmj1ZKSZA.png",
+        imgSrc: tänzerin,
         imgAlt: "Tänzerin",
         genre: "Techno",
         title: "Lorem ipsum",
@@ -371,7 +374,7 @@ export const Blog = [
         id:5,
         released: false,
         date: "2023.05.16",
-        imgSrc: "/src/images/blogimg/3MAmj1ZKSZA.png",
+        imgSrc: tänzerin,
         imgAlt: "Tänzerin",
         genre: "Techno",
         title: "Lorem ipsum",
@@ -387,37 +390,37 @@ export const Blog = [
 export const ClientPics = [
 {
      id: 1,
-     imgSrc: "/src/images/clientsimg/mango.png",
+     imgSrc: mango,
      imgAlt: "Mango",
 },
 {
      id: 2,
-     imgSrc: "/src/images/clientsimg/microsoft.png",
+     imgSrc: microsoft,
      imgAlt: "microsoft",
 },
 {
     id: 3,
-    imgSrc: "/src/images/clientsimg/nike.png",
+    imgSrc: nike,
     imgAlt: "nike",
 },
 {
     id: 4,
-    imgSrc: "/src/images/clientsimg/amazon.png",
+    imgSrc: amazon,
     imgAlt: "amazon",
 },
 {
     id: 5,
-    imgSrc: "/src/images/clientsimg/mango.png",
+    imgSrc: mango,
     imgAlt: "Mango",
 },
 {
     id: 6,
-    imgSrc: "/src/images/clientsimg/microsoft.png",
+    imgSrc: microsoft,
     imgAlt: "microsoft",
 },
 {
    id: 7,
-   imgSrc: "/src/images/clientsimg/nike.png",
+   imgSrc: nike,
    imgAlt: "nike",
 },
 
@@ -426,15 +429,15 @@ export const ClientPics = [
 export const ContactData = [
     {
         id:1,
-        phoneImg: "/src/images/phone-line.svg",
+        phoneImg: phone,
         phoneAlt: "phone",
         phonenumber1: "+1234-596-3155",
         phonenumber2: "+1234-596-3156",
-        emailImg: "/src/images/message-3-line.svg",
+        emailImg: message,
         emailAlt: "email",
         email: "mail@example.com",
-        adressImg: "/src/images/map-pin-2-line.svg",
-        adressAlt: "phone",      
+        adressImg: adress,
+        adressAlt: "adress",      
         adress: "myStreet 123, 01234 Town"
     },
 ];

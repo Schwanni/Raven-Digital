@@ -1,9 +1,9 @@
 import React from 'react'
 import Logo from "../images/Asset1.png";
 import FooterNavigation from './FooterNavigation';
-import FacebookIcon from "/src/images/socialIcons/icons8-facebook.svg"
-import TwitterIcon from "/src/images/socialIcons/icons8-twitter.svg"
-import InstaIcon from "/src/images/socialIcons/icons8-instagram.svg"
+import FacebookIcon from "../images/socialIcons/icons8-facebook.svg"
+import TwitterIcon from "../images/socialIcons/icons8-twitter.svg"
+import InstaIcon from "../images/socialIcons/icons8-instagram.svg"
 
 const Elements = () => {
   return (
