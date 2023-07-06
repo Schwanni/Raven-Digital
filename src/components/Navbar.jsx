@@ -11,7 +11,7 @@ const Navbar = () => {
   }
   return (
   
-    <div className='flex w-full lg:justify-between gap-0'>
+    <nav className='flex w-full justify-between gap-0'>
       <div>
         <img src={Logo} alt="logo" className="mt-12 ml-14 lg:ml-28" />
       </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="hidden md:ml-8 mt-14 lg:flex md:w-1/5">
         <img src={Search} alt="search" className="w-[24px] h-[24px]" />
       </div>
-    </div>
+    </nav>
     
   )
 }

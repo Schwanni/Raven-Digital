@@ -1,4 +1,4 @@
-import {Navbar, About, Services, Portfolio, Testimonials, News, Contacts, Elements, Stats, Team} from "./components/index"
+import {Navbar, About, Services, Portfolio, Testimonials, News, Contacts, Elements, Stats, Team, Clients} from "./components/index"
 
 
 function App() {
@@ -14,8 +14,10 @@ function App() {
       <Testimonials />
       <Team />
       <News />
+      <Clients />
       <Contacts />
       <Elements />
+      
     </div>
   
   )

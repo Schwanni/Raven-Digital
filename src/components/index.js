@@ -10,3 +10,4 @@ export { default as Team } from "./Team";
 export { default as News } from "./News";
 export { default as Contacts } from "./Contacts";
 export { default as Elements } from "./Elements";
+export { default as Clients } from "./Clients";

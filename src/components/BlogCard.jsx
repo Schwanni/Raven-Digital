@@ -12,11 +12,11 @@ const BlogCard = ({blog}) => {
   return (
     <>
     {released[0] ? (
-        <div className='w-[460px] h-[714px] bg-[#11161C] rounded-tr-[90px] my-20 relative group'>
+        <div className='w-[230px] sm:w-[460px] h-[714px] bg-[#11161C] rounded-tr-[90px] my-20 relative group'>
             
        <Link to={`/blog?${blog.id}`} reloadDocument={true}>
        <div className='flex flex-col justify-center items-center '>
-            <div className='w-[415px] h-[415px] relative my-6 z-[3]'>
+            <div className='w-[207px] sm:w-[415px] h-[207px] sm:h-[415px] relative my-6 z-[3]'>
                 <img src={blog.imgSrc} alt={blog.imgAlt} className='rounded-[4px] rounded-tr-[90px] z-[3]' />
                 <div className='w-[125px] h-[53px] rounded-tr-[69.5px] flex justify-center items-center text-white font-medium text-lg absolute bottom-0  bg-[#003ADB] z-[2]'>{blog.genre}</div>
             </div>

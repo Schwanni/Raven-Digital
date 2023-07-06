@@ -1,7 +1,3 @@
-
-
-
-
 export const NavigationLinks = [
     {
     id: 1,
@@ -253,7 +249,7 @@ export const Members = [
     },
     {
         id:2,
-        name:"Simone Koch",
+        name:"Fake Person",
         job: "Company / CEO",
         text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.",
 
@@ -385,5 +381,60 @@ export const Blog = [
         blogArticleText2: "no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore",
         blogArticleText3: "te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum.",
         blogArticleText4: "soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.uis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur",
+    },
+];
+
+export const ClientPics = [
+{
+     id: 1,
+     imgSrc: "/src/images/clientsimg/mango.png",
+     imgAlt: "Mango",
+},
+{
+     id: 2,
+     imgSrc: "/src/images/clientsimg/microsoft.png",
+     imgAlt: "microsoft",
+},
+{
+    id: 3,
+    imgSrc: "/src/images/clientsimg/nike.png",
+    imgAlt: "nike",
+},
+{
+    id: 4,
+    imgSrc: "/src/images/clientsimg/amazon.png",
+    imgAlt: "amazon",
+},
+{
+    id: 5,
+    imgSrc: "/src/images/clientsimg/mango.png",
+    imgAlt: "Mango",
+},
+{
+    id: 6,
+    imgSrc: "/src/images/clientsimg/microsoft.png",
+    imgAlt: "microsoft",
+},
+{
+   id: 7,
+   imgSrc: "/src/images/clientsimg/nike.png",
+   imgAlt: "nike",
+},
+
+];
+
+export const ContactData = [
+    {
+        id:1,
+        phoneImg: "/src/images/phone-line.svg",
+        phoneAlt: "phone",
+        phonenumber1: "+1234-596-3155",
+        phonenumber2: "+1234-596-3156",
+        emailImg: "/src/images/message-3-line.svg",
+        emailAlt: "email",
+        email: "mail@example.com",
+        adressImg: "/src/images/map-pin-2-line.svg",
+        adressAlt: "phone",      
+        adress: "myStreet 123, 01234 Town"
     },
 ];
