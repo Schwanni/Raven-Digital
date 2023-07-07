@@ -9,7 +9,7 @@ const Portfolio = () => {
         {Works.map((work) => (
           <div key={work.id} className={`lg:${work.w} lg:${work.h} mb-4`} >
           
-            {work.id !== 4 ? <img src={work.imgSrc} alt={work.imgAlt} className={``}  /> : 
+            {work.id !== 4 ? <img src={work.imgSrc} alt={work.imgAlt} loading="lazy" className={``}  /> : 
               <div className="flex flex-col flex-1 ">
                 <h2 className="text-white text-[32px] font-bold">{work.h2}</h2>
                 <p className="max-w-[360px] text-white font-light text-[20px] my-8">{work.p}</p>

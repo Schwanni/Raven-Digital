@@ -9,7 +9,7 @@ const Clients = () => {
             <div className='flex justify-between'>
                 {ClientPics.map((client) => (
                     <div key={client.id}>
-                    <img src={client.imgSrc} alt={client.imgAlt}  />
+                    <img src={client.imgSrc} alt={client.imgAlt} loading='lazy' />
                     </div>
                 ))}
             </div>

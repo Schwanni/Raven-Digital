@@ -48,12 +48,12 @@ const Contacts = () => {
           </div>
           <div className='flex flex-col'>
             
-            <span className='flex items-center gap-4 mb-4'><img src={ContactData[0].phoneImg} alt={ContactData[0].phoneAlt} /><h3 className='text-white'>Mobile number</h3></span>
+            <span className='flex items-center gap-4 mb-4'><img src={ContactData[0].phoneImg} alt={ContactData[0].phoneAlt} loading='lazy' /><h3 className='text-white'>Mobile number</h3></span>
             <span className='flex gap-4 my-2'> <p className='text-white'>{ContactData[0].phonenumber1}</p><Button title={"Call"} css={"text-[13px] w-[100px] h-[30px] "} /></span>
             <span className='flex gap-4 my-2'> <p className='text-white'>{ContactData[0].phonenumber2}</p><Button title={"Call"} css={"text-[13px] w-[100px] h-[30px] "} /></span>
-            <span className='flex items-center gap-4 my-4'><img src={ContactData[0].emailImg} alt={ContactData[0].emailAlt} /><h3 className='text-white'>E-mail</h3></span>
+            <span className='flex items-center gap-4 my-4'><img src={ContactData[0].emailImg} alt={ContactData[0].emailAlt} loading='lazy' /><h3 className='text-white'>E-mail</h3></span>
             <span className='text-white'>{ContactData[0].email}</span>
-            <span className='flex items-center gap-4 my-4'><img src={ContactData[0].adressImg} alt={ContactData[0].adressAlt} /><h3 className='text-white'>Adress</h3></span>
+            <span className='flex items-center gap-4 my-4'><img src={ContactData[0].adressImg} alt={ContactData[0].adressAlt} loading='lazy' /><h3 className='text-white'>Adress</h3></span>
             <span className='text-white'>{ContactData[0].adress}</span>
             
           </div>

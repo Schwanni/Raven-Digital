@@ -1,6 +1,6 @@
 import Carousel from "nuka-carousel";
 import { Examples } from "../constants";
-import { useState } from "react";
+
 
 
 
@@ -12,12 +12,12 @@ const Testimonials = () => {
       
       <div className="mx-4  xxl:mx-52 xxl:my-16">
         <Carousel autoplay={true} autoplayInterval={5000} wrapAround={true} renderCenterRightControls={false} renderCenterLeftControls={false} >
-          {Examples.map((example, exampleIndex) => (
+          {Examples.map((example) => (
             
             <div key={example.id} className="">
               
             <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start mx-auto mb-10"> 
-            <img src={example.imgSrc} className="max-w-[250px] md:max-w-[546px] h-[260px] md:h-[517px] rounded-tr-[80px]" />
+            <img src={example.imgSrc} loading="lazy" className="max-w-[250px] md:max-w-[546px] h-[260px] md:h-[517px] rounded-tr-[80px]" />
               <div className="flex flex-col mx-16 my-8 justify-center items-center lg:justify-normal lg:items-start ">
                 <h2 className="text-white text-[48px] font-medium mb-6">Testimonials</h2>
                 <h3 className="text-[#D0D0D0] text-[24px] font-medium">{example.name}</h3>

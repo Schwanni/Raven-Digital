@@ -13,7 +13,7 @@ const Card = () => {
                 </div>
                 <div className="flex justify-end items-end">
                     <div className="flex justify-center items-center w-[140px] h-[100px] bg-[#003ADB] border-top-left">
-                    <img src={card.imgSrc} alt={card.imgAlt} className="w-[48px] h-  [48px] text-white"/>
+                    <img src={card.imgSrc} alt={card.imgAlt} loading="lazy" className="w-[48px] h-  [48px] text-white"/>
                     </div>
                 </div>
             </div>

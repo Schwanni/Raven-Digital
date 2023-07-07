@@ -18,9 +18,9 @@ const FlipCard = ({flipcard}) => {
                         <h3 className="text-white mt-2">{flipcard.job}</h3>
                         <p className="text-white my-4 px-2">{flipcard.text1}</p>
                         <div className="flex gap-6 mt-2 ">
-                        <a href={flipcard.facebookLink}><img src={flipcard.facebookImg} className="w-8 h-8" /></a>
-                        <a href={flipcard.twitterLink}><img src={flipcard.twitterimg} className="w-8 h-8" /></a>
-                        <a href={flipcard.instagramLink}><img src={flipcard.instagramImg} className="w-8 h-8" /></a>
+                        <a href={flipcard.facebookLink}><img src={flipcard.facebookImg} loading='lazy' className="w-8 h-8" /></a>
+                        <a href={flipcard.twitterLink}><img src={flipcard.twitterimg} loading='lazy' className="w-8 h-8" /></a>
+                        <a href={flipcard.instagramLink}><img src={flipcard.instagramImg} loading='lazy' className="w-8 h-8" /></a>
                         </div>
                     </div>)}
                    

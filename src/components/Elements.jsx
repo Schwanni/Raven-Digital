@@ -10,16 +10,16 @@ const Elements = () => {
     <section id="elements" className='section'>
       <footer className='flex flex-col justify-center items-center w-full'>
       <div className='flex justify-center items-center w-full my-12'> 
-        <img src={Logo} alt="logo" className="mt-12 flex justify-center items-center" />
+        <img src={Logo} alt="logo" loading='lazy' className="mt-12 flex justify-center items-center" />
       </div>
       <span className='flex justify-center items-center text-center w-full'><p className='text-[#787878] max-w-[559px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse </p></span>
       <div>
         <FooterNavigation />
       </div>
       <div className='flex gap-4 sm:gap-12 sm:my-16'>
-        <img src={FacebookIcon} alt="facebook" />
-        <img src={TwitterIcon} alt="facebook" />
-        <img src={InstaIcon} alt="facebook" />
+        <img src={FacebookIcon} alt="facebook" loading='lazy' />
+        <img src={TwitterIcon} alt="facebook" loading='lazy' />
+        <img src={InstaIcon} alt="facebook" loading='lazy' />
       </div>
       <span className='mb-16'><p className='text-white opacity-50'>Copyright © 2021. Raven Digital. All rights reserved.</p></span>
       </footer>

@@ -13,7 +13,7 @@ const Navbar = () => {
   
     <nav className='flex w-full justify-between gap-0'>
       <div>
-        <img src={Logo} alt="logo" className="mt-12 ml-14 lg:ml-28" />
+        <img src={Logo} alt="logo" loading="lazy" className="mt-12 ml-14 lg:ml-28" />
       </div>
 
       <div className='lg:w-1/2 hidden md:flex md:w-2/5 mt-14 lg:ml-32'>
@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
 
       <div className="mx-4">
-        <button onClick={navToggle} className="text-white md:hidden mx-8 my-12 border-2 rounded-full flex items-center justify-center w-[38px] h-[38px]"><img src={Menu} /></button>
+        <button onClick={navToggle} className="text-white md:hidden mx-8 my-12 border-2 rounded-full flex items-center justify-center w-[38px] h-[38px]"><img src={Menu} alt="menu" loading="lazy" /></button>
         <div className="">
           {toggle && (
               <ul className={`flex flex-col justify-between items-center gap-3 list-none bg-slate-700`}>

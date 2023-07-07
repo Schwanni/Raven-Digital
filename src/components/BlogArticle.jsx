@@ -22,7 +22,7 @@ const BlogArticle = () => {
                   <div className='h2Heading'>
                   {blog.title}
                   </div>
-                  <img src={(blog.id == lastField[1])? blog.imgSrc: "" } alt={blog.imgAlt} className='max-w-[400px] py-8'  />
+                  <img src={(blog.id == lastField[1])? blog.imgSrc: "" } alt={blog.imgAlt} loading='lazy' className='max-w-[400px] py-8'  />
                   <div className='w-1/2 flex justify-between'>
                     <h3 className='text-white'>{newDateString}</h3>
                     <h3 className='text-white'>{blog.id}</h3>

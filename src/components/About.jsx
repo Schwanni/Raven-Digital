@@ -21,7 +21,7 @@ const About = () => {
         </div>
 
         <div className="w-1/2">
-            <img src={Team} />
+            <img src={Team} alt="team" loading="lazy" />
         </div>
     </section>
   )
