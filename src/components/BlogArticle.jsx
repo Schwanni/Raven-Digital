@@ -6,7 +6,9 @@ import { useState } from 'react'
 
 
 const BlogArticle = () => {
-  const lastField = window.location.search.split("?");
+  
+  const lastField = document.location.pathname.split("=");
+  
 
   return (
     <div>

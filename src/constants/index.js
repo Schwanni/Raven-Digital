@@ -10,37 +10,37 @@ export const NavigationLinks = [
     {
         id: 2,
         linkname: "About",
-        link: "#about"
+        link: "/#about"
     },
     {
         id: 3,
         linkname: "Services",
-        link: "#services"
+        link: "/#services"
     },
     {
         id: 4,
         linkname: "Portfolio",
-        link: "#portfolio"
+        link: "/#portfolio"
     },
     {
         id: 5,
         linkname: "Testimonials",
-        link: "#testimonials"
+        link: "/#testimonials"
     },
     {
         id: 6,
         linkname: "News",
-        link: "#news"
+        link: "/#news"
     },
     {
         id: 7,
         linkname: "Contacts",
-        link: "#contacts"
+        link: "/#contacts"
     },
     {
         id: 8,
         linkname: "Elements",
-        link: "#elements"
+        link: "/#elements"
     },
 ];
 

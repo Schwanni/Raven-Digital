@@ -6,24 +6,28 @@ import BlogArticle from './components/BlogArticle.jsx'
 
 import {
   createBrowserRouter,
-  RouterProvider,  
+  createRoutesFromElements,
+  RouterProvider,
+  Route,
 } from "react-router-dom";
 
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "blog",
-    element: <BlogArticle />,
-  }
-]);
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/'>
+      <Route index element={<App />} />
+      <Route path="blog/:id" element={<BlogArticle />} />
+    </Route>
+  )
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  //<React.StrictMode>
-     <RouterProvider router={router} />
- // </React.StrictMode>,
+
+  <React.StrictMode>
+   
+        <RouterProvider router={router} />
+   
+  </React.StrictMode>,
+
 )

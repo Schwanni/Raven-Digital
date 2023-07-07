@@ -14,7 +14,7 @@ const BlogCard = ({blog}) => {
     {released[0] ? (
         <div className='w-[230px] sm:w-[460px] h-[714px] bg-[#11161C] rounded-tr-[90px] my-20 relative group'>
             
-       <Link to={`/blog?${blog.id}`} reloadDocument={true}>
+       <Link to={`/blog/id=${blog.id}`} reloadDocument={true}>
        <div className='flex flex-col justify-center items-center '>
             <div className='w-[207px] sm:w-[415px] h-[207px] sm:h-[415px] relative my-6 z-[3]'>
                 <img src={blog.imgSrc} alt={blog.imgAlt} loading='lazy' className='rounded-[4px] rounded-tr-[90px] z-[3]' />
