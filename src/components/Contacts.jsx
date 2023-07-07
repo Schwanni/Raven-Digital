@@ -31,7 +31,7 @@ const Contacts = () => {
   };
 
   return (
-    <section className='my-32'>
+    <section id="contacts" className='my-32'>
       <div className='flex flex-col justify-center items-center'>
         <h2 className='text-white text-5xl font-medium my-16'>Contact us</h2>
         <div className='flex flex-col gap-8 sm:flex-row justify-between w-3/4 lg:w-1/2'>

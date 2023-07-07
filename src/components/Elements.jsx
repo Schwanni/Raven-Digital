@@ -10,7 +10,7 @@ const Elements = () => {
     <section id="elements" className='section'>
       <footer className='flex flex-col justify-center items-center w-full'>
       <div className='flex justify-center items-center w-full my-12'> 
-        <img src={Logo} alt="logo" className="mt-12 ml-14 lg:ml-28" />
+        <img src={Logo} alt="logo" className="mt-12 flex justify-center items-center" />
       </div>
       <span className='flex justify-center items-center text-center w-full'><p className='text-[#787878] max-w-[559px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse </p></span>
       <div>
