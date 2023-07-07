@@ -29,7 +29,7 @@ const BlogCard = ({blog}) => {
                 <p className='text-[#9C9898] group-hover:text-[#D0D0D0] text-lg font-light z-[2]'>{blog.text}</p>
             </div>
        </div> 
-       <div className='w-full h-2 group-hover:h-[450px] duration-300 z-0 bg-[#003ADB] absolute bottom-0'></div>
+       <div className='w-full h-2 group-hover:animate-wave duration-300 z-0 bg-[#003ADB] absolute bottom-0'></div>
        </Link>
     </div>
     ) : ""}
