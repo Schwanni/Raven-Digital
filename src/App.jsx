@@ -16,8 +16,7 @@ function App() {
       <News />
       <Clients />
       <Contacts />
-      <Elements />
-      
+      <Elements />  
     </div>
   
   )
